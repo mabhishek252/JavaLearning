@@ -1,9 +1,11 @@
 package collectionExamples;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapExp {
 
@@ -33,18 +35,33 @@ public class HashMapExp {
 		map.put("Vegitable", valSetTwo);
 		map.put("Masala", valSetThree);
 		
+		map.remove(valSetOne, "Apple");
+		map.replace("Fruits", valSetOne, valSetTwo);
+		map.replace("Apple", valSetOne);
+		
+		
+		/*if (!map.containsKey("Friuts")) {
+			for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+		    	
+		    	String key = entry.getKey();
+		    	List<String> values = entry.getValue();
+		    	System.out.println("Entry set of Keys = " + key + " and Values = " + values);
+		    	//System.out.println("Entry set of Values = " + values);
+		    }
+		}*/
 		//System.out.println(map);
 		
-		System.out.println("Fetching Keys and corresponding [Multiple] Values n");
+		
+	/*	System.out.println("Fetching Keys and corresponding [Multiple] Values n");
 	    for (Map.Entry<String, List<String>> entry : map.entrySet()) {
 	    	
 	    	String key = entry.getKey();
 	    	List<String> values = entry.getValue();
-	    	
-	    	System.out.println("Entry set of Keys = " + key);
-	    	System.out.println("Entry set of Values = " + values);
-	    	
-	    }
+	    	System.out.println("Entry set of Keys = " + key + " and Values = " + values);
+	    	//System.out.println("Entry set of Values = " + values);
+	    }*/
+	    
+	    
 	}
 
 }

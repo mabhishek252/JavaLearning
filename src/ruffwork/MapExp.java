@@ -11,13 +11,13 @@ public class MapExp {
     Map<String, List<String>> map = new HashMap<String, List<String>>();
     
     
-    
+   /* 
     // create list one and store values
     List<String> valSetOne = new ArrayList<String>();
     valSetOne.
     
-   /* valSetOne.put("Apple");
-    valSetOne.add("Aeroplane");*/
+    valSetOne.put("Apple");
+    valSetOne.add("Aeroplane");
     // create list two and store values
     List<String> valSetTwo = new ArrayList<String>();
     valSetTwo.add("Bat");
@@ -38,8 +38,8 @@ public class MapExp {
         System.out.println("Key = " + key);
         System.out.println("Values = " + values + "n");
     }
-
+*/
 }
-	}
+	
 
 

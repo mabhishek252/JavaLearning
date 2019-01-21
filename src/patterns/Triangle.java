@@ -22,6 +22,6 @@ public class Triangle {
 
 
 
-protected class B{
+ class B{
 	
 }
